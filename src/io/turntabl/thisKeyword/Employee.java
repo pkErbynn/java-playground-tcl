@@ -26,4 +26,7 @@ public class Employee {
     public int getSalary() {
         return salary;
     }
+
 }
+
+
