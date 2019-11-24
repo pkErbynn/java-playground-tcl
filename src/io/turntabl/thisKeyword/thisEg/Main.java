@@ -1,4 +1,4 @@
-package io.turntabl.This;
+package io.turntabl.thisKeyword.thisEg;
 
 public class Main {
     public static void main(String[] args) {

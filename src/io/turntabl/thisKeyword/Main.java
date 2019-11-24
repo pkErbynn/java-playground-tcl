@@ -1,4 +1,4 @@
-package io.turntabl.ThisKeyword;
+package io.turntabl.thisKeyword;
 
 public class Main {
 

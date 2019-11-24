@@ -1,4 +1,4 @@
-package io.turntabl.This;
+package io.turntabl.thisKeyword.thisEg;
 
 public class ThisExample {
     int num;
