@@ -28,3 +28,7 @@ public class ThisExample {
         this.greet();
     }
 }
+
+
+// NB
+//* `this` keyword is NOT used in static method

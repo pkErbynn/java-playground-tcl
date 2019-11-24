@@ -2,6 +2,7 @@ package io.turntabl.optional;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class StudentOptional {
@@ -48,13 +49,13 @@ public class StudentOptional {
 
 
         // for null object
-//        Student s_student = null;
-//        Optional<Student> studentOptional = Optional.ofNullable(s_student);
-//        if (studentOptional.isEmpty()) {
-//            System.out.println("Invalid student");
-//        } else {
-//            System.out.println(studentOptional);
-//        }
+        Student s_student = null;
+        Optional<Student> studentOptional = Optional.ofNullable(s_student);
+        if (studentOptional.isEmpty()) {
+            System.out.println("Invalid student");
+        } else {
+            System.out.println(studentOptional.get());
+        }
 
 
         //////////// with List //////////////
@@ -82,3 +83,12 @@ public class StudentOptional {
 
 
 }
+
+
+
+
+// NB:
+// null is a value that is not actually a value
+// null is a known to be "a million dollar mistake"
+//`optional` is a java.lang.NullPointerException killer
+// .get() ... gets the value
